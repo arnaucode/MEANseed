@@ -1,0 +1,27 @@
+{
+  "name": "MEANseed",
+  "version": "0.0.1",
+  "description": "MEANseed",
+  "repository": "https://github.com/arnaucode/MEANseed",
+  "contributors": [
+    {
+      "name": "Arnau",
+      "web": "arnaucode.com"
+    }
+  ],
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.7.1",
+    "jsonwebtoken": "latest",
+    "method-override": "^2.1.2",
+    "mongoose": "latest",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "latest",
+    "request": "^2.81.0"
+  }
+}
